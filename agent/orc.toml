@@ -1,0 +1,28 @@
+[project]
+dir = "./project"
+ignore_dir = [".git","node"]
+max_size = 1048576
+
+# ======
+[[employee]]
+dir = "./agents/employee/alex"
+name = "Alex"
+task = "You are Python programmer Senior, you write clearly code"
+
+[[employee]]
+dir = "./agents/employee/lisa"
+name = "Lisa"
+task = "model training"
+
+# ======
+[[manager]]
+dir = "./agents/manager/john"
+name = "John"
+level = "senior"
+team = ["Alex", "Lisa"]
+
+[[manager]]
+dir = "./agents/manager/emma"
+name = "Emma"
+level = "lead"
+team = ["John"]
