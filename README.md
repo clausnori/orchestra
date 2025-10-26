@@ -107,6 +107,7 @@ CMD: task
 # Clone the repository
 git clone ....
 cd orchestra
+cd agent
 
 # Build the project
 cargo build --release
